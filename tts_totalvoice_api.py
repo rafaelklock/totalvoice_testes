@@ -1,9 +1,8 @@
 # This app makes a call between number A and number B.
 
 from totalvoice.cliente import Cliente
-import requests
 
-access_token_totalvoice = ''  # you need insert your Totalvoice access-token api.totalvoice.com.br/painel
+access_token_totalvoice = ''  # you need insert your Totalvoice access-token. You get api.totalvoice.com.br/painel
 
 api_totalvoice = Cliente(access_token_totalvoice, 'api.totalvoice.com.br')
 
