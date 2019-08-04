@@ -3,7 +3,9 @@
 from totalvoice.cliente import Cliente
 import requests
 
-api_totalvoice = Cliente("089f722451983a4ef92db0e5eba812b0", 'api.totalvoice.com.br')
+access_token_totalvoice = ''  # you need insert your Totalvoice access-token api.totalvoice.com.br/painel
+
+api_totalvoice = Cliente(access_token_totalvoice, 'api.totalvoice.com.br')
 
 src_number = input('Insert A number: ')
 dst_number = input('Insert B number: ')
